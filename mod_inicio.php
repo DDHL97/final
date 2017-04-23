@@ -3,7 +3,7 @@
 	
 	$id_principal=$_POST['id_principal'];
 	$pueblo=$_POST['pueblo'];
-	$dbienvenida=$_POST['bienvenida'];
+	$bienvenida=$_POST['bienvenida'];
     $img_pueblo=$_POST['img_pueblo'];
 	
 	$query="UPDATE principal SET pueblo ='$pueblo', bienvenida='$bienvenida', img_pueblo = '$img_pueblo' WHERE id_principal='$id_principal'";
