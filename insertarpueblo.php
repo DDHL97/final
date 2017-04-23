@@ -2,7 +2,7 @@
 	
 	require('conexion.php');
 	
-	$nom_puelo=$_POST['nom_pueblo'];
+	$nom_pueblo=$_POST['nom_pueblo'];
 	$descripcion=$_POST['descripcion'];
 	$filename = basename( $_FILES['imagen_pueblo']['name']);
     $query="INSERT INTO pueblos (nom_pueblo, descripcion,imagen_pueblo) VALUES ('$nom_pueblo','$descripcion','$filename')";
