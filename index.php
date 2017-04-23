@@ -71,6 +71,7 @@
           <img class="img-circle" src="static/images/<?php echo $row['img_pueblo'];?>" alt="Generic placeholder image" width="140" height="140">
           <h2><?php echo $row['pueblo'];?></h2>
     <p><?php echo $row['bienvenida'];?></p>
+	<p>¡Visita <?php echo $row['pueblo'];?>!</p>
           <p><a class="btn btn-default" href="<?php echo $row['pueblo'];?>.php" role="button">Ver más &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
     <?php } ?>
