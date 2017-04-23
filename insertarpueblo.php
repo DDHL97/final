@@ -5,7 +5,7 @@
 	$nom_puelo=$_POST['nom_pueblo'];
 	$descripcion=$_POST['descripcion'];
 	$filename = basename( $_FILES['imagen_pueblo']['name']);
-    $query="INSERT INTO pueblos (nom_pueblos, descripcion,imagen_pueblo) VALUES ('$nom_pueblo','$descripcion','$filename')";
+    $query="INSERT INTO pueblos (nom_pueblo, descripcion,imagen_pueblo) VALUES ('$nom_pueblo','$descripcion','$filename')";
 	$resultado=$mysqli->query($query);
 $target_path = "static/images/";
 $target_path = $target_path . $filename;
