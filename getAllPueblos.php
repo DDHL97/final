@@ -2,10 +2,10 @@
 
 	require('conexion.php');
 
-$sql_query = "SELECT * FROM lugares_interes;";
-$result = mysql_query($sql_query);
+$sql_query = "SELECT * FROM pueblos;";
+$result = $mysqli->query($sql_query);
 $rows = array();
-while($r = mysql_fetch_assoc($result)) {
+while($r = mysqli_fetch_assoc($result)) {
   $rows[] = $r;
 }
 print json_encode($rows);
