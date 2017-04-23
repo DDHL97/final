@@ -4,7 +4,6 @@
 	
 	$nom_puelo=$_POST['nom_pueblo'];
 	$descripcion=$_POST['descripcion'];
-    $imagen_pueblo=$_POST['imagen_pueblo'];
 	$filename = basename( $_FILES['imagen_pueblo']['name']);
     $query="INSERT INTO pueblos (nom_pueblos, descripcion,imagen_pueblo) VALUES ('$nom_pueblo','$descripcion','$filename')";
 	$resultado=$mysqli->query($query);
