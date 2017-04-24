@@ -58,10 +58,12 @@ function confirmar()
                         <ul role="menu" class="dropdown-menu">
                                 <li><a href="nuevopueblo.php">Nuevo Pueblo Magico</a></li>
                                 <li><a href="nuevolugar.php">Nuevo lugar de interes</a></li>
+                            <li><a href="nuevaguia.php">Nueva guia</a></li>
                         </ul>
                 </li>
                 <li><a href="pueblos.php">Pueblos magicos</a></li>
                 <li><a href="lugares.php">Lugares de interes</a></li>
+                <li><a href="guias.php">Guias</a></li>
                 <li><a href="login.php" onclick="return confirmar()">Cerrar Sesión</a></li>
             </ul>
         </div>
