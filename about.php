@@ -40,7 +40,7 @@
             <div class="page-header text center">
                 <h1>Acerca de</h1>       
             </div>
-            <p>Esta aplicacion fue creeada con la finalidad de ayudar a la publicidad de lo spueblos magicos del estado de Hidalgo para que asi la ciudadania del mismo estado antes mencionado disfrute de todo el misticismo, cultura, gastronomia y paisajes que los rodean sin tener que salir del estado de Hidalgo.</p>
+            <p>Esta aplicacion fue creada con la finalidad de ayudar a la publicidad de los pueblos magicos del estado de Hidalgo para que asi la ciudadania del mismo estado antes mencionado disfrute de todo la magia, misticismo, cultura, gastronomia y paisajes que los rodean sin tener que salir a otros estados de la Republica mexicana.</p>
             <div align = "center">
             <img src="static/imgweb/letournee.png" width="200" height="200"/>
                 </div>
